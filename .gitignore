@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+
+# Runtime artifacts
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
